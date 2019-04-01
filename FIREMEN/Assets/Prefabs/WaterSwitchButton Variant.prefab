@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4597240697783022561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4576235433200734041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd204d826d311e14295fa64780626710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 4576235433129723472}
+  waterSpawner: {fileID: 0}
+  maxCount: 5
+--- !u!1001 &1714303914431135168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2902679579162768025, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_Name
+      value: WaterSwitchButton Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.837
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04157796
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579162768024, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579099036563, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.05098039
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579099036563, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.6290247
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902679579099036563, guid: d5f8469eca60d2943ac563df8fd2fd52,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2902679579162768101, guid: d5f8469eca60d2943ac563df8fd2fd52, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d5f8469eca60d2943ac563df8fd2fd52, type: 3}
+--- !u!1 &4576235433200734041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2902679579162768025, guid: d5f8469eca60d2943ac563df8fd2fd52,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714303914431135168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4576235433129723472 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2902679579099036560, guid: d5f8469eca60d2943ac563df8fd2fd52,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714303914431135168}
+  m_PrefabAsset: {fileID: 0}
